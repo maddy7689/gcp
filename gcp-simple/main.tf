@@ -4,7 +4,7 @@ provider "google" {
 
 // A single Compute Engine instance
 resource "google_compute_instance" "default" {
- name         = "flask-vm-12345678"
+ name         = "flask-vm-12345677"
  machine_type = "f1-micro"
  zone         = "us-west1-a"
 
